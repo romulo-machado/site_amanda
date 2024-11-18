@@ -1,0 +1,93 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+/* Conteúdo principal */
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #ffe4e1;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 15px;
+}
+
+.info {
+    flex: 1;
+    max-width: 600px;
+    margin-left: 20px;
+}
+
+.info h2 {
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+
+.info h2 span {
+    color: #ff6584;
+}
+
+.info p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0 20px;
+}
+
+/* Botões */
+.buttons a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    color: #333;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.buttons a:hover {
+    background-color: #ff6584;
+    color: white;
+}
